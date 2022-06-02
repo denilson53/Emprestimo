@@ -290,14 +290,14 @@ font-weight: bold;
 		position: fixed;
 		z-index: 999;
 		margin-top: 350px;
-		left: 320px;
+		left: 330px;
 		float: right;
 		width: 60px;
 		height: 60px;
 		}
 		div.logo img{
-	   height: 70px;
-	   width: 70px;
+	   height: 60px;
+	   width: 60px;
 	   
 		}
 
