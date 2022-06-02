@@ -306,7 +306,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .formulario-1{
-background-color: rgba(0, 255, 255, 0.795);
+background-color: rgb(15, 185, 195);
 }
 
 .formulario-1 h3{
@@ -336,7 +336,7 @@ font-family: "Open Sans";;
 
 .formulario-2{
 	padding: 10px;
-    background-color: rgba(0, 255, 255, 0.795); 
+	background-color: rgb(15, 185, 195);
 }
 
 .formulario-2 input{
@@ -381,11 +381,19 @@ height: 415px;
 
 }
 
+footer{
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+background-color: rgb(15, 185, 195);
+padding: 15px;
+}
 
 
 
 
-@media screen and (max-width: 830px){
+
+@media screen and (max-width: 1030px){
 	div.logo{
 		position: fixed;
 		z-index: 999;
@@ -421,6 +429,86 @@ height: 415px;
 		color: white;
 		margin-top:10px;
 	}
+
+	.Simulado{
+		background-size: cover;
+		background-position: center;
+		background-image: url('../imagens/Banner2.jpg');
+	 width: auto;
+	 z-index: 1;
+	}
+	
+	.texto-code{
+	position: static;
+	background-color: rgba(255, 255, 255, 0);
+	z-index: 999;
+	width: auto;
+	}
+	.texto-code h2{
+		background-color: rgba(255, 255, 255, 0);
+		font-weight: 100px;
+		}
+	
+		.texto-code p{
+		background-color: rgba(255, 255, 255, 0);
+		
+	
+		}
+	
+		.formulario{
+			flex-wrap: wrap;
+			width: auto;
+			background-color: rgb(15, 185, 195);
+			
+			}
+	
+			.formulario-1{
+			width: auto;
+			margin: auto;
+				
+				}
+	
+				.formulario-2{
+					
+					padding: 10px;
+					width: auto;
+						
+					}
+	
+				.formulario-2 input{
+					
+					width: auto;
+					margin: 10px;
+					
+					}
+					.formulario-2 input.email{
+						
+						width: auto;
+						margin: 10px;
+						
+						
+						}
+					
+						.formulario-2 input.botao{
+						
+						width: 250px;
+						margin: auto;
+	
+						
+	
+	
+							}
+					.formulario-3{
+					
+					
+						}
+	
+						.formulario-3 img{
+							width: 500px;
+							
+							
+								}
+			
 }
 
 @media screen and (max-width: 768px){
@@ -537,7 +625,7 @@ width: auto;
 	.formulario{
 		flex-wrap: wrap;
 		width: auto;
-		background-color: aqua;
+		background-color: rgb(15, 185, 195);
 		
 		}
 
@@ -578,12 +666,12 @@ width: auto;
 
 						}
 				.formulario-3{
-				width: auto;
+				
 				
 					}
 
 					.formulario-3 img{
-						width: 413px;
+						width: 500px;
 						
 							}
 		
@@ -635,6 +723,17 @@ width: auto;
 				left: 50px;
 					}
 
+					.formulario-3{
+									
+						margin: auto;
+							}
+
+							.formulario-3 img{
+								width: 400px;
+								
+								}
+		
+
 		 }
 
 		 @media screen and (max-width: 450px){
@@ -662,6 +761,47 @@ width: auto;
 					font-size: 18px;
 				
 					}
+
+					.formulario-2{
+									
+						padding: 10px;
+						width: auto;
+							
+						}
+		
+					.formulario-2 input{
+						
+						width: 230px;
+						margin: 10px;
+						
+						}
+						.formulario-2 input.email{
+							
+							width: 230px;
+							margin: 10px;
+							
+							
+							}
+						
+							.formulario-2 input.botao{
+							
+							width: 230px;
+							margin: auto;
+		
+							
+		
+		
+								}
+
+					.formulario-3{
+									
+						margin: auto;
+							}
+
+							.formulario-3 img{
+								width: 350px;
+								
+								}
 		
 				 }
 
@@ -694,7 +834,7 @@ width: auto;
 						.formulario{
 							flex-wrap: wrap;
 							width: auto;
-							background-color: aqua;
+							background-color: rgb(15, 185, 195);
 							
 							}
 					
@@ -745,8 +885,7 @@ width: auto;
 											}
 							
 					
-					
-			
+							
 						 }
 
 
