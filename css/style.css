@@ -374,23 +374,62 @@ margin: 40px 40px;
 
 }
 
-@media screen and (max-width: 518px){
+@media screen and (max-width: 618px){
 	div.logo{
 		position: fixed;
 		z-index: 999;
-		margin-top: 400px;
+		margin-top: 450px;
 		left: 320px;
 		float: right;
 		width: 100px;
 		height: 100px;
 		}
 		div.logo img{
-	   height: 70px;
-	   width: 70px;
+	   height: 60px;
+	   width: 60px;
 	   
 		}
 
 		 }
+
+		 @media screen and (max-width: 450px){
+			div.logo{
+				position: fixed;
+				z-index: 999;
+				margin-top: 450px;
+				left: 320px;
+				float: right;
+				width: 100px;
+				height: 100px;
+				}
+				div.logo img{
+			   height: 60px;
+			   width: 60px;
+			   
+				}
+		
+				 }
+
+				 @media screen and (max-width: 380px){
+					div.logo{
+						position: fixed;
+						z-index: 999;
+						margin-top: 450px;
+						left: 280px;
+						float: right;
+						width: 100px;
+						height: 100px;
+						}
+						div.logo img{
+					   height: 60px;
+					   width: 60px;
+					   
+						}
+				
+						 }
+
+
+
 
 
 
