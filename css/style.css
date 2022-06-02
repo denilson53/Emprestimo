@@ -67,7 +67,7 @@ nav.mobile-menu:hover ul{
 
 nav.mobile-menu ul{
 	display: none;
-	background-color: rgb(212, 206, 206);
+	background-color: rgb(15, 185, 195);
 	position: absolute;
 	width: 100%;
 	left: 0;
@@ -83,12 +83,17 @@ nav.mobile-menu ul li{
 }
 
 nav.mobile-menu ul li:hover{
-	background-color: rgb(230,230,230);
+	background-color: rgb(255, 255, 255);
 }
 
 nav.mobile-menu ul li a{
-	color: black;
+	color: rgb(0, 0, 0);
 	text-decoration: none;
+	box-shadow: 5px 5px 5px black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-weight: 300;
+	background-color: rgb(255, 255, 255);
 }
 
 
