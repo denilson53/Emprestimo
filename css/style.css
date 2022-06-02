@@ -290,10 +290,10 @@ font-weight: bold;
 		position: fixed;
 		z-index: 999;
 		margin-top: 350px;
-		left: 550px;
+		left: 320px;
 		float: right;
-		width: 100px;
-		height: 100px;
+		width: 60px;
+		height: 60px;
 		}
 		div.logo img{
 	   height: 70px;
@@ -374,72 +374,63 @@ margin: 40px 40px;
 
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 618px){
 	div.logo{
 		position: fixed;
 		z-index: 999;
-		margin-top: 300px;
-		left: 450px;
+		margin-top: 450px;
+		left: 320px;
 		float: right;
-		width: 70px;
-		height: 70px;
+		width: 60px;
+		height: 60px;
 		}
 		div.logo img{
-	   height: 70px;
-	   width: 70px;
+	   height: 60px;
+	   width: 60px;
 	   
 		}
-	 }
 
-@media screen and (max-width: 568px){
-	div.logo{
-		position: fixed;
-		z-index: 999;
-		margin-top: 280px;
-		left: 330px;
-		float: right;
-		width: 70px;
-		height: 70px;
-		}
-		div.logo img{
-	   height: 70px;
-	   width: 70px;
-	   
-		}
-	 }
-
-	 @media screen and (max-width: 468px){
-		div.logo{
-			position: fixed;
-			z-index: 999;
-			margin-top: 450px;
-			left: 270px;
-			float: right;
-			width: 100px;
-			height: 100px;
-			}
-			div.logo img{
-		   height: 100px;
-		   width: 100px;
-		   
-			}
 		 }
 
-		 @media screen and (max-width: 468px){
+		 @media screen and (max-width: 450px){
 			div.logo{
 				position: fixed;
 				z-index: 999;
 				margin-top: 450px;
-				left: 180px;
+				left: 320px;
 				float: right;
-				width: 100px;
-				height: 100px;
+				width: 60px;
+				height: 60px;
 				}
 				div.logo img{
-			   height: 100px;
-			   width: 100px;
+			   height: 60px;
+			   width: 60px;
 			   
 				}
-			 }
+		
+				 }
+
+				 @media screen and (max-width: 380px){
+					div.logo{
+						position: fixed;
+						z-index: 999;
+						margin-top: 450px;
+						left: 280px;
+						float: right;
+						width: 60px;
+						height: 60px;
+						}
+						div.logo img{
+					   height: 60px;
+					   width: 60px;
+					   
+						}
+				
+						 }
+
+
+
+
+
 
 			
